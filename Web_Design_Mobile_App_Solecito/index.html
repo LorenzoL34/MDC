@@ -4,46 +4,94 @@
 <meta charset="UTF-8">
 <title>Project 6 Mobile App</title>
 <style>
+	body {
+margin:0;
+padding:0;
+background-color:#f9f2e8;
 	}
-	wrapper {
-margin: auto;
-background-color: white;
+	.title {
+width: 100%;
+	}
+	
+	.wrapper {
+width: 100%;
+display: block;
+margin: 0 auto;
+color:antiquewhite;
 	}
 	.banner {
-align: center;
+width: 100%;
 	}
 	.food1 {
-width: 98px;
-	}
+width: 33%;
+    }
 	.food2 {
-width: 98px;
+width: 33%;
 	}
 	.food3 {
-width: 98px;
+width: 33%;
 	}
 	.exploremenu {
-align: center;
+width: 100%;
+	}
+	.startorder {
+width: 100%;
 	}
 	h1 {
-font-size: 15px;
-	}
+font-family: "Times New Roman";
+font-size: 80px;
+color: #016937;
+text-align: center;
+}
 	h2 {
-font-size: 15px;
+font-family: "Times New Roman";
+font-size: 80px;
+color: #016937;
+text-align: center;
+	}
+	nav {
+	height: 76px;
+	}
+	ul {
+	margin: 0;
+	padding: 0;
+	}
+	li {
+	display:inline-block;
+	margin: 20px 70px 20px;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 40px;
+	color: #016937;
+	}
+	li:hover {
+	color: white;
+	background-color: #016937;
+	border-radius: 100px;
 	}
 </style>
 </head>
-<header>
-<img src="Front.png" class="banner"/>
-</header>
 <body>
+<header>
+<img src="Title.png" class="title"/>
+</header>
 <wrapper>
+<nav>
+<ul>
+<li>Home</li>
+<li>Our Menu</li>
+<li>About Us</li>
+<li>Careers</li>
+<li>Socials</li>
+</ul>
+</nav>
+<img src="Front.png" class="banner"/>
 <h1>Our Fan Favorites</h1>
-<img src="casandwich.png" class="food1"/> <img src="swrap.png" class="food2"/> <img src="tm&vwrap.png" class="food3"/>
+<section>
+<img src="food1.png" class="food1"/> <img src="food3.png" class="food3"/> <img src="food2.png" class="food2"/>
+</section>
 <h2>The Solecito Experience</h2>
-<img src="exploremenu.png" class="exploremenu"/>
-<footer>
-<img src="startorder.png" class="startorder"/>
-</footer>
+<img src= "exploremenu.png" class="exploremenu"/>
 </wrapper>
 </body>
 </html>
